@@ -17,9 +17,7 @@ function drawChart() {
             tdata.push([key, value]);
         };
     };
-    
-    console.log(typeof tdata);
-    console.log(tdata);
+
     var data = google.visualization.arrayToDataTable(tdata);
 
     // Optional; add a title and set the width and height of the chart
